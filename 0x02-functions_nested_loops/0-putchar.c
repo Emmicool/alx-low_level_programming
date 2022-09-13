@@ -1,4 +1,4 @@
-#include <studio.h>
+#include "main.h"
 
 /**
 * main - Description: _putchar
@@ -10,7 +10,7 @@ int main(void)
 {
 	int _putchar;
 
-	printf("_putchar %d \n");
+	print_putchar();
 
 	return (0);
 }
