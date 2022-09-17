@@ -3,18 +3,11 @@
 /**
 * _islower - check the code.
 * @c: Check the code.
+* Description: prints all lowercase letters
 * Return: ALways 0.
 */
 
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-	return (0);
+	return (c >= 'a' && c <= 'z');
 }
