@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
-* _putchar - prints a string
-* @str: string to print
-*
-* Description: prints a string
-* On success: retuens no error
+* _puts - prints a string, followed by a new line.
+* @str: input string.
+* Return: no return.
 */
 
 void _putchar(char *str)
