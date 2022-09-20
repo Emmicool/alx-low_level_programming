@@ -7,14 +7,14 @@
 * Return: no return.
 */
 
-void _putchar(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
-		putchar(*(str + i));
+		_putchar(*(str + i));
 		i++;
 	}
-	putchar(10);
+	_putchar('\n');
 }
